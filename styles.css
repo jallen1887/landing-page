@@ -71,6 +71,7 @@ img {
   border-color: #3e475a;
   border-style: solid;
   border-radius: 15px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
   flex: 0 1 auto;
 }
 
@@ -87,4 +88,32 @@ img {
   font-weight: 700;
   font-size: 16pt;
   border-radius: 10px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
+}
+
+.area-two {
+  padding: 100px;
+  margin: 10px 0px;
+  background-color: #f9faf8;
+  color: #1f2937;
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
+}
+
+.area-three {
+  padding: 100px;
+  margin: 10px 0px;
+  background-color: #abacaf;
+  color: #1f2937;
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
+}
+
+.area-four {
+  padding: 100px;
+  margin: 10px 0px;
+  background-color: #f9faf8;
+  color: #1f2937;
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
 }
