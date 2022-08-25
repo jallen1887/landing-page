@@ -1,6 +1,8 @@
 body {
   background-color: #1f2937;
   color: white;
+  padding: 5px 14px;
+  text-align: center;
 }
 
 ul {
@@ -10,4 +12,24 @@ ul {
 a {
   text-decoration: none;
   color: #e5e7eb;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.link-list {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
 }
