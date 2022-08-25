@@ -48,14 +48,6 @@ a, .hero{
   padding: 0px;
 }
 
-.hero-image {
-  /*background-color: #e5e7eb;*/
-  color: #1f2937;
-  flex: 1;
-  max-width: 500px;
-  max-height: 250px;
-}
-
 h1 {
   font-size: 48px;
   font-weight: 800;
@@ -92,14 +84,31 @@ img {
 }
 
 .area-two {
-  padding: 100px;
+  padding: 15px 50px 100px 50px;
   margin: 10px 0px;
   background-color: #f9faf8;
   color: #1f2937;
   border-radius: 5px;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
+.img-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+.img-content {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #3e475a;
+  border-radius: 10px;
+}
 .area-three {
   padding: 100px;
   margin: 10px 0px;
