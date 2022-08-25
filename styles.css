@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: #1f2937;
-  color: white;
+  background-color: #1e193a;
+  color: #e5e7eb;
   font-family: Roboto;
   padding: 5px 14px;
   text-align: center;
@@ -26,9 +26,20 @@ a, .hero{
 .header {
   display: flex;
   justify-content: space-between;
-  color: #f9faf8;
+  color: #e5e7eb;
   font-size: 24px;
   font-weight: bold;
+}
+
+.header-img {
+  height: 64px;
+  width: auto;
+  border: none;
+}
+
+.header-left {
+  display: flex;
+  gap: 15px;
 }
 
 .link-list {
@@ -68,7 +79,7 @@ h1 {
   max-height: 300px;
   width: auto;
   border-width: 5px;
-  border-color: #3e475a;
+  border-color: #2f283b;
   border-style: solid;
   border-radius: 15px;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
@@ -83,7 +94,7 @@ h1 {
 .hero-button {
   height: 50px;
   width: 150px;
-  background-color: #2f4566;
+  background-color: #2f283b;
   color: #e5e7eb;
   font-weight: 700;
   font-size: 16pt;
@@ -95,8 +106,8 @@ h1 {
 .area-two {
   padding: 15px 50px 100px 50px;
   margin: 10px 5%;
-  background-color: #f9faf8;
-  color: #1f2937;
+  background-color: #f9faf8d0;
+  color: #2f283b;
   border-radius: 5px;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
   display: flex;
@@ -122,15 +133,15 @@ img {
   height: 100%;
   width: 100%;
   object-fit: fill;
-  border: 8px solid #3e475a;
+  border: 8px solid #2f283b;
   border-radius: 2px;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
 }
 .area-three {
   padding: 100px;
   margin: 10px 5%;
-  background-color: #abacaf;
-  color: #1f2937;
+  background-color: #8d8d8d;
+  color: #1e193a;
   border-radius: 5px;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
   font-size: 36px;
@@ -147,18 +158,19 @@ img {
 .area-four {
   padding: 100px;
   margin: 10px 5%;
-  background-color: #f9faf8;
+  background-color: #f9faf8d0;
   color: #1f2937;
   border-radius: 5px;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
 }
 
 .action-holder {
-  background-color: dodgerblue;
+  background-color: #1e193a;
   color: #f9faf8;
   text-align: left;
   border-radius: 10px;
   padding: 20px 60px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
   display: flex;
   justify-content: space-around;
   align-items: center;
