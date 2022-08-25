@@ -83,6 +83,23 @@ img {
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.459);
 }
 
+@media (max-width: 850px) {
+  .area-one {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .hero,
+  h1,
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero {
+    align-items: center;
+  }
+}
+
 .area-two {
   padding: 15px 50px 100px 50px;
   margin: 10px 0px;
